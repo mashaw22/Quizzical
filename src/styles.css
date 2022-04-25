@@ -14,17 +14,11 @@ body {
 }
 
 .yellow-blob {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 25%;
+    display: none;
 }
 
 .blue-blob {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 20%;
+    display: none;
 }
 
 /* Start page */
@@ -183,10 +177,18 @@ body {
         font-size: 1rem;
     }
     .yellow-blob {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
         width: 15%;
     }
     
     .blue-blob {
+        display: inline;
+        position: absolute;
+        left: 0;
+        bottom: 0;
         width: 15%;
     }
     .start-overlay{
