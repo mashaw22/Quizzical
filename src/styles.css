@@ -84,7 +84,7 @@ body {
 .answer-choices {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     border-bottom: .79px solid #DBDEF0;
 }
 
@@ -97,7 +97,7 @@ body {
     border-radius: 8px;
     border: .79px solid #4D5B9E;
     cursor: pointer;
-    margin-right: 1em;
+    margin: 0 1em 1em 0;
     min-width: 65px;
     padding: 4px 8px;
 }
